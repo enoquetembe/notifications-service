@@ -44,7 +44,7 @@ export class Notification {
   }
 
   public get category(): string {
-    return this.props.recipientId;
+    return this.props.category;
   }
 
   public set category(category: string) {
