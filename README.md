@@ -7,7 +7,7 @@
   <a href="#-technologies">Technologies</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#-getting-started">Getting started</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#-status">Status</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#-contributions">Contributions</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-contributing">Contributing</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#-license">License</a>  
 
 </p>
@@ -31,6 +31,9 @@ This project is being developed with the following technologies:
 
 
 ##  🚀 Getting Started
+
+### Prerequisites
+You must have <a href="https://nodejs.org/en/"> Node.js </a> and   <a href="https://git-scm.com/downloads"> git </a> installed
 ### Installation
 
 ```bash
@@ -70,7 +73,7 @@ $ npm run test:cov
 
 <br>
 
-## 👨‍💻 Contributions
+## 👨‍💻 Contributing
 
 <p> 
   Pull requests are welcome. For major changes, please open an issue to discuss what and which kind of to changes you want to perform.<br>
