@@ -14,7 +14,7 @@
 
 ## 💻 Project 
 
-<p> 
+<p > 
   This project is a microservice to send notifications, a service responsible for sending notifications to users or other systems. This service is designed to be   scalable and flexible, allowing different types of notifications to be sent to different communication channels, such as email, SMS, push notifications, among others.
 </p>
 <p> 
@@ -31,7 +31,7 @@ This project is being developed with the following technologies:
 
 
 ##  🚀 Getting Started
-## Installation
+### Installation
 
 ```bash
 $ npm install
@@ -50,7 +50,7 @@ $ npm run start:dev
 $ npm run start:prod
 ```
 
-## Test
+### Test
 
 ```bash
 # unit tests
@@ -65,7 +65,7 @@ $ npm run test:cov
 
 
 
-# Status 
+## Status 
 <p>This project is still under developement...</p>
 
 <br>
