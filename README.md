@@ -45,7 +45,7 @@ $ git clone https://github.com/enoquetembe/notifications-service.git
 
 ### Installation
 
-- Open the project with a terminal and follow the steps bellow
+- Open the project with a terminal and copy the code bellow
 
 ```bash
 $ npm install
