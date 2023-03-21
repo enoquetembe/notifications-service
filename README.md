@@ -98,12 +98,12 @@ $ npm run test:cov
  $ git checkout -b MyFeature
  ```
   
-  #### 3. Commit your Changes
+  #### 3. Commit your changes
   ```bash
    $ git commit -m 'Adding my feature'
   ```
   
-  #### 4. Push to your future brach
+  #### 4. Push to your feature branch
   ```bash
    $ git push origin MyFeature
   ```
