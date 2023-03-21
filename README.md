@@ -33,8 +33,19 @@ This project is being developed with the following technologies:
 ##  🚀 Getting Started
 
 ### Prerequisites
-You must have <a href="https://nodejs.org/en/"> Node.js </a> and   <a href="https://git-scm.com/downloads"> git </a> installed
+- You must have <a href="https://nodejs.org/en/"> Node.js </a> and   <a href="https://git-scm.com/downloads"> git </a> installed
+
+### Cloning the repository
+- You can download this repository or open a Git Bash terminal or a different terminal and copy the code bellow
+
+
+```bash
+$ git clone https://github.com/enoquetembe/notifications-service.git
+```
+
 ### Installation
+
+- Open the project with a terminal and follow the steps bellow
 
 ```bash
 $ npm install
@@ -69,14 +80,37 @@ $ npm run test:cov
 
 
 ## Status 
-<p>This project is still under developement...</p>
+- This project is still under developement...
 
 <br>
 
 ## 👨‍💻 Contributing
 
 <p> 
-  Pull requests are welcome. For major changes, please open an issue to discuss what and which kind of to changes you want to perform.<br>
+  Pull Requests are welcome. For major changes, please open an issue to discuss what and which kind of changes you want to perform.<br>
+  Follow this steps to make your contribution.
+  
+  #### 1. Fork the repository
+  
+  #### 2. Create your feature branch 
+ ```bash
+ # To make it easier name this branch with your username or with the name of the feature you added
+ $ git checkout -b MyFeature
+ ```
+  
+  #### 3. Commit your Changes
+  ```bash
+   $ git commit -m 'Adding my feature'
+  ```
+  
+  #### 4. Push to your future brach
+  ```bash
+   $ git push origin MyFeature
+  ```
+  
+  #### 5. Open a Pull Request
+  
+  <br>
   Let's work together. 😁
 <p/>
 
