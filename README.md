@@ -1,38 +1,57 @@
+<h1 align="center"> 
+  Notification Service
+</h1>
+
 <p align="center">
-  <a href="http://nestjs.com/" target="blank"><img src="https://nestjs.com/img/logo-small.svg" width="200" alt="Nest Logo" /></a>
+  <a href="#-project">Project</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-technologies">Technologies</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-getting-started">Getting started</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-status">Status</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-contributing">Contributing</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-license">License</a>  
+
 </p>
 
-[circleci-image]: https://img.shields.io/circleci/build/github/nestjs/nest/master?token=abc123def456
-[circleci-url]: https://circleci.com/gh/nestjs/nest
+## 💻 Project 
 
-  <p align="center">A progressive <a href="http://nodejs.org" target="_blank">Node.js</a> framework for building efficient and scalable server-side applications.</p>
-    <p align="center">
-<a href="https://www.npmjs.com/~nestjscore" target="_blank"><img src="https://img.shields.io/npm/v/@nestjs/core.svg" alt="NPM Version" /></a>
-<a href="https://www.npmjs.com/~nestjscore" target="_blank"><img src="https://img.shields.io/npm/l/@nestjs/core.svg" alt="Package License" /></a>
-<a href="https://www.npmjs.com/~nestjscore" target="_blank"><img src="https://img.shields.io/npm/dm/@nestjs/common.svg" alt="NPM Downloads" /></a>
-<a href="https://circleci.com/gh/nestjs/nest" target="_blank"><img src="https://img.shields.io/circleci/build/github/nestjs/nest/master" alt="CircleCI" /></a>
-<a href="https://coveralls.io/github/nestjs/nest?branch=master" target="_blank"><img src="https://coveralls.io/repos/github/nestjs/nest/badge.svg?branch=master#9" alt="Coverage" /></a>
-<a href="https://discord.gg/G7Qnnhy" target="_blank"><img src="https://img.shields.io/badge/discord-online-brightgreen.svg" alt="Discord"/></a>
-<a href="https://opencollective.com/nest#backer" target="_blank"><img src="https://opencollective.com/nest/backers/badge.svg" alt="Backers on Open Collective" /></a>
-<a href="https://opencollective.com/nest#sponsor" target="_blank"><img src="https://opencollective.com/nest/sponsors/badge.svg" alt="Sponsors on Open Collective" /></a>
-  <a href="https://paypal.me/kamilmysliwiec" target="_blank"><img src="https://img.shields.io/badge/Donate-PayPal-ff3f59.svg"/></a>
-    <a href="https://opencollective.com/nest#sponsor"  target="_blank"><img src="https://img.shields.io/badge/Support%20us-Open%20Collective-41B883.svg" alt="Support us"></a>
-  <a href="https://twitter.com/nestframework" target="_blank"><img src="https://img.shields.io/twitter/follow/nestframework.svg?style=social&label=Follow"></a>
+<p > 
+  This project is a microservice to send notifications, a service responsible for sending notifications to users or other systems. This service is designed to be   scalable and flexible, allowing different types of notifications to be sent to different communication channels, such as email, SMS, push notifications, among others.
 </p>
-  <!--[![Backers on Open Collective](https://opencollective.com/nest/backers/badge.svg)](https://opencollective.com/nest#backer)
-  [![Sponsors on Open Collective](https://opencollective.com/nest/sponsors/badge.svg)](https://opencollective.com/nest#sponsor)-->
+<p> 
+  Notification services are often used in modern applications that require real-time communication with users, such as social networks, messaging applications, e-commerce, task management systems, among others. They can be integrated with other microservices or legacy systems to provide a complete solution for communicating with users.
+</p>
 
-## Description
+##  🚀 Technologies 
+This project is being developed with the following technologies:
+- <span>[**Node.js**](https://nodejs.org/en/)</span>
+- <span>[**Nest.js**](https://docs.nestjs.com/)</span>
+- <span>[**Jest.js**](https://jestjs.io/docs/getting-started)</span>
+- <span>[**Prisma**](https://www.prisma.io/)</span>
+- <span>[**TypeScript**](https://www.typescriptlang.org/)</span>
 
-[Nest](https://github.com/nestjs/nest) framework TypeScript starter repository.
 
-## Installation
+##  🚀 Getting Started
+
+### Prerequisites
+- You must have <a href="https://nodejs.org/en/"> Node.js </a> and   <a href="https://git-scm.com/downloads"> git </a> installed
+
+### Cloning the repository
+- You can download this repository or open a Git Bash terminal or a different terminal and copy the code bellow
+
+
+```bash
+$ git clone https://github.com/enoquetembe/notifications-service.git
+```
+
+### Installation
+
+- Open the project with a terminal and copy the code bellow
 
 ```bash
 $ npm install
 ```
 
-## Running the app
+### Running the app
 
 ```bash
 # development
@@ -45,7 +64,7 @@ $ npm run start:dev
 $ npm run start:prod
 ```
 
-## Test
+### Test
 
 ```bash
 # unit tests
@@ -58,16 +77,51 @@ $ npm run test:e2e
 $ npm run test:cov
 ```
 
-## Support
 
-Nest is an MIT-licensed open source project. It can grow thanks to the sponsors and support by the amazing backers. If you'd like to join them, please [read more here](https://docs.nestjs.com/support).
 
-## Stay in touch
+## Status 
+- This project is still under developement...
 
-- Author - [Kamil Myśliwiec](https://kamilmysliwiec.com)
-- Website - [https://nestjs.com](https://nestjs.com/)
-- Twitter - [@nestframework](https://twitter.com/nestframework)
+<br>
 
-## License
+## 👨‍💻 Contributing
 
-Nest is [MIT licensed](LICENSE).
+<p> 
+  Pull Requests are welcome. For major changes, please open an issue to discuss what and which kind of changes you want to perform.<br>
+  Follow this steps to make your contribution.
+  
+  #### 1. Fork the repository
+  
+  #### 2. Create your feature branch 
+ ```bash
+ # To make it easier name this branch with your username or with the name of the feature you added
+ $ git checkout -b MyFeature
+ ```
+  
+  #### 3. Commit your changes
+  ```bash
+   $ git commit -m 'Adding my feature'
+  ```
+  
+  #### 4. Push to your feature branch
+  ```bash
+   $ git push origin MyFeature
+  ```
+  
+  #### 5. Open a Pull Request
+  
+  <br>
+  Let's work together. 😁
+<p/>
+
+<br>
+
+## 📄 License
+This project is under MIT Lincese  [CLICK HERE](https://github.com/enoquetembe/notifications-service/blob/main/license) to read the file about the license.
+
+<br>
+
+Made with ❤  by [Enoque Tembe](https://github.com/enoquetembe)
+
+
+
