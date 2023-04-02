@@ -25,6 +25,12 @@ export class InMemoryNotificationsRepository
     ).length;
   }
 
+  async findManyByRecipientId(recipientId: string): Promise<Notification[]> {
+    return this.notifications.filter(
+      (notification) => notification.recipientId === recipientId,
+    );
+  }
+
   async create(notification: Notification) {
     this.notifications.push(notification);
   }

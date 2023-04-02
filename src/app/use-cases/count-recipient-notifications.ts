@@ -1,7 +1,7 @@
 /* eslint-disable prettier/prettier */
 import { NotificationsRepository } from '../repositories/notifications-repository';
 import { Injectable } from '@nestjs/common';
-import { NotificationNotFound } from './errors/notification-not-found';
+
 
 interface CountRecipientNotificationsRequest {
   recipientId: string;
